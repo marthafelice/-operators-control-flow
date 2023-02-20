@@ -42,4 +42,4 @@ Bitwise Operators:
         
 
         //             QUESTION 4
-Outputs will be Government, Economics, Literature, History, English, Mathematics
+Outputs will be 1,8,15

@@ -134,8 +134,21 @@ function determineMySubjects(classGroup){
 console.log(determineMySubjects("Arts"));
 
 
-
-
+//         Question 4
+function PowerOf2(num) {
+    let pwr = 1;
+    while (pwr <= num) {
+      pwr *= 2;
+    }
+    if (pwr > 2 * num) {
+      pwr /= 2;
+    }
+    console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`);
+  }
+  
+  PowerOf2(90); 
+  PowerOf2(10);
+  
 
 
 
